@@ -19,32 +19,25 @@
 ## 📁 Repository Structure
 
 Code_files_Submission_New/
-│
-├── Pneumonia Detection_Report.pdf # Full pipeline documentation Pneumonia Detection_Rep…
-│
-├── ResNet50/ # Transfer-learning on ResNet50
-│ ├── ResnetDLProj_v2.ipynb # Notebook: data prep, fine-tuning, evaluation
-│ └── Resnet50_model.pth # Trained weights
-│
-├── Inception_V3/ # InceptionV3 implementation
-│ ├── inception_V2.ipynb # Notebook: multi-scale feature extraction
-│ └── chest_xray_inceptionv3.pth # Checkpoint
-│
-├── CNN_Basic/ # Baseline 3-layer CNN
-│ ├── CNN_Basic_V2.ipynb # Notebook: architecture, training
-│ └── CNN_Basic_best_model.pth # Best checkpoint
-│
-├── CNN_Improved/ # Enhanced CNN with regularization
-│ ├── CNN_Improved_64b_V2.ipynb # Batch size experiments
-│ ├── CNN_Improved_16b_32b_V2.ipynb
-│ └── CNN_improved_best_model.pth
-│
-├── CheXNet/ # DenseNet-121 fine-tuned CheXNet
-│ ├── chexnet-v2.ipynb
-│ └── chexnet_model_V2.pth
-│
-└── Ensemble/ # Weighted voting + XAI
-└── X_ray_pneumonia_pr…ling_and_XAI_V4.ipynb
+├── Pneumonia_Detection_Report.pdf
+├── ResNet50/
+│   ├── ResnetDLProj_v2.ipynb
+│   └── Resnet50_model.pth
+├── Inception_V3/
+│   ├── inception_V2.ipynb
+│   └── chest_xray_inceptionv3.pth
+├── CNN_Basic/
+│   ├── CNN_Basic_V2.ipynb
+│   └── CNN_Basic_best_model.pth
+├── CNN_Improved/
+│   ├── CNN_Improved_64b_V2.ipynb
+│   ├── CNN_Improved_16b_32b_V2.ipynb
+│   └── CNN_improved_best_model.pth
+├── CheXNet/
+│   ├── chexnet-v2.ipynb
+│   └── chexnet_model_V2.pth
+└── Ensemble/
+    └── X_ray_pneumonia_preprocessing_and_XAI_V4.ipynb
 
 ---
 
@@ -76,7 +69,6 @@ Code_files_Submission_New/
 | Model          | Accuracy | Precision (N / P) | Recall (N / P) | F1-Score (N / P) |
 | -------------- | -------- | ----------------- | -------------- | ---------------- |
 | **CNN_Basic**  | 96%      | 0.93 / 0.98       | 0.94 / 0.98    | 0.94 / 0.98      |
-| **CNN_Improved** | 69%    | –                 | –              | 0.70 (macro)     |
 | **InceptionV3**| 97%      | 0.96 / 0.97       | 0.92 / 0.98    | 0.94 / 0.98      |
 | **ResNet50**   | 97%      | 0.96 / 0.97       | 0.91 / 0.99    | 0.94 / 0.98      |
 | **CheXNet**    | 97%      | 0.92 / 0.99       | 0.97 / 0.97    | 0.95 / 0.98      |
