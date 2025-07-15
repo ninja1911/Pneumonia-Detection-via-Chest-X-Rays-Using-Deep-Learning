@@ -3,7 +3,7 @@
 **Course**: DATA 255 Deep Learning Technologies, San Jose State University  
 **Instructor**: Dr. Simon Shim  
 **Date**: December 09, 2024  
-**Full Report**: [Pneumonia Detection_Report.pdf](./Pneumonia%20Detection_Report.pdf) :contentReference[oaicite:0]{index=0}  
+**Full Report**: [Pneumonia Detection_Report.pdf](./Pneumonia%20Detection_Report.pdf)  
 
 ---
 
@@ -47,7 +47,7 @@ Code_files_Submission_New/
 ## 📊 Dataset & Preprocessing
 
 - **Source**: Guangzhou Women’s & Children’s Medical Center pediatric X-rays (ages 1–5), Kaggle.  
-- **Total Images**: 5,863 (Normal vs. Pneumonia) :contentReference[oaicite:2]{index=2}  
+- **Total Images**: 5,863 (Normal vs. Pneumonia)  
 - **Original Split**  
   - Train: 1,341 Normal / 3,875 Pneumonia  
   - Test: 234 Normal / 390 Pneumonia  
