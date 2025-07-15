@@ -18,26 +18,7 @@
 
 ## 📁 Repository Structure
 
-Code_files_Submission_New/
-├── Pneumonia_Detection_Report.pdf
-├── ResNet50/
-│   ├── ResnetDLProj_v2.ipynb
-│   └── Resnet50_model.pth
-├── Inception_V3/
-│   ├── inception_V2.ipynb
-│   └── chest_xray_inceptionv3.pth
-├── CNN_Basic/
-│   ├── CNN_Basic_V2.ipynb
-│   └── CNN_Basic_best_model.pth
-├── CNN_Improved/
-│   ├── CNN_Improved_64b_V2.ipynb
-│   ├── CNN_Improved_16b_32b_V2.ipynb
-│   └── CNN_improved_best_model.pth
-├── CheXNet/
-│   ├── chexnet-v2.ipynb
-│   └── chexnet_model_V2.pth
-└── Ensemble/
-    └── X_ray_pneumonia_preprocessing_and_XAI_V4.ipynb
+<pre> ```text Code_files_Submission_New/ ├── Pneumonia_Detection_Report.pdf ├── ResNet50/ │ ├── ResnetDLProj_v2.ipynb │ └── Resnet50_model.pth ├── Inception_V3/ │ ├── inception_V2.ipynb │ └── chest_xray_inceptionv3.pth ├── CNN_Basic/ │ ├── CNN_Basic_V2.ipynb │ └── CNN_Basic_best_model.pth ├── CNN_Improved/ │ ├── CNN_Improved_64b_V2.ipynb │ ├── CNN_Improved_16b_32b_V2.ipynb │ └── CNN_improved_best_model.pth ├── CheXNet/ │ ├── chexnet-v2.ipynb │ └── chexnet_model_V2.pth └── Ensemble/ └── X_ray_pneumonia_preprocessing_and_XAI_V4.ipynb ``` </pre>
 
 ---
 
